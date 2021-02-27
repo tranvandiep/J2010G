@@ -1,3 +1,4 @@
+I) Bắt đầu làm việc với git
 1. Trong TH làm việc lần đầu tiên với dự án: Dành cho thành viên đầu tiền tạo dự.
 - git init
 - git add -A
@@ -8,4 +9,10 @@
 2. Thành viên khác sử dụng lần đầu tiên:
 - git clone https://github.com/tranvandiep/J2010G.git J2010G_Another
 
+II) Work cho những lần tiếp theo.
 3. Đẩy code lên
+- git add -A
+- git commit -m 'Update feature git_step'
+- git push origin master
+
+4. Lấy code mới về
