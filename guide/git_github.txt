@@ -1,0 +1,15 @@
+git/github
+
+1. Github
+	-> Tạo ra nhiều project
+	-> Project
+		- Quản lý source code của project
+		- Add các thành viên vào project trên github
+		- Thanh viên trong project -> đẩy code lên github project -> lấy source code mới nhất từ github project về máy tính cá nhân để làm.
+		- Quản lý đc source code mỗi lần thành viên đẩy lên -> những thay đổi code trong từng lần đẩy lên như nào.
+Câu hỏi đặt ra: Làm sao chúng ta có thể động code từ máy tính cá nhân lên github -> thực hiện work trong dự án được.
+
+2. Git
+	-> Phần mềm -> cho phép chung ta có thể đẩy code lên github hoặc lấy code mới nhất từ github về máy cá nhân.
+	-> Cài đặt git trên máy cá nhân
+	-> Có thể cài 1 số phần mềm -> thao tác trên GUI -> làm việc với github (github desktop)

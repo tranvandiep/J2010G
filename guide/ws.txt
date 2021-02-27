@@ -1,0 +1,17 @@
+Web service: (SOAP API + Resful (Spring MVC))
+- SOAP API (Web Service)
+	- Tạo SOAP API bằng WS
+	- Test trên SOAP API
+	- Viết ứng dụng client để test SOAP API
+
+============================================
+Client:
+	- Gui yeu cau them sinh vien (Student: name, age, address) -> Server -> Save Student vao database
+
+Tạo 1 dự án Web App
+	Viết API về Calculator -> công, trừ, nhân, chia (float x, y) -> float
+	WS -> cho phép Client có thể gọi được
+		-> Gen Wrapper (SOAP API)
+
+Tạo 1 dự án client => Test SOAP API.
+	Config => Nhận WSDL (Web Service từ Web App)
