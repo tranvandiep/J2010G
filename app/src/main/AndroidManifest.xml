@@ -13,12 +13,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".TestActivity" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserInforActivity" />
-        <activity android:name=".animal.AnimalActivity">
-        </activity>
+        <activity android:name=".animal.AnimalActivity"></activity>
         <activity android:name=".news.NewsActivity">
+        </activity>
+        <activity android:name=".news.NewsAPIActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
