@@ -16,9 +16,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserInforActivity" />
-        <activity android:name=".animal.AnimalActivity"></activity>
-        <activity android:name=".news.NewsActivity">
-        </activity>
+        <activity android:name=".animal.AnimalActivity" />
+        <activity android:name=".news.NewsActivity" />
         <activity android:name=".news.NewsAPIActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".news.EditorNewsActivity" />
+
+        <service
+            android:name=".CounterService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>

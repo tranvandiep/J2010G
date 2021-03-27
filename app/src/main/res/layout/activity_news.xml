@@ -8,6 +8,14 @@
     android:padding="6dp"
     tools:context="gokisoft.j2010g.news.NewsActivity">
 
+    <TextView
+        android:id="@+id/an_counter"
+        android:textColor="@color/colorAccent"
+        android:textSize="16pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Counter" />
+
     <ListView
         android:id="@+id/an_listview"
         android:layout_width="match_parent"

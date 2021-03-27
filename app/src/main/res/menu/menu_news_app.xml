@@ -4,6 +4,12 @@
     <item android:id="@+id/mna_add_news"
         android:title="Add News"
         app:showAsAction="never" />
+    <item android:id="@+id/mna_counter"
+        android:title="Start Counter"
+        app:showAsAction="never" />
+    <item android:id="@+id/mna_stop_counter"
+        android:title="Stop Counter"
+        app:showAsAction="never" />
     <item android:id="@+id/mna_exit"
         android:title="Exit Program"
         app:showAsAction="never" />

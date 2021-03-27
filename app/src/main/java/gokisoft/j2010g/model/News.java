@@ -3,6 +3,8 @@ package gokisoft.j2010g.model;
 import android.icu.text.SimpleDateFormat;
 import android.util.Log;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.Date;
 
 /**
@@ -10,7 +12,15 @@ import java.util.Date;
  */
 
 public class News {
-    String thumbnail, title, description, createdAt;
+    String thumbnail;
+    String title;
+
+    @SerializedName("description")
+    String description;
+
+    @SerializedName("created_at")
+    String createdAt;
+
     int _id;
 
     public News() {
@@ -84,5 +94,16 @@ public class News {
 
     public void set_id(int _id) {
         this._id = _id;
+    }
+
+    @Override
+    public String toString() {
+        return "News{" +
+                "thumbnail='" + thumbnail + '\'' +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", createdAt='" + createdAt + '\'' +
+                ", _id=" + _id +
+                '}';
     }
 }
